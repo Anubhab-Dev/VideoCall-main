@@ -1,0 +1,9 @@
+diff --git a/node_modules/react-dev-utils/checkRequiredFiles.js b/node_modules/react-dev-utils/checkRequiredFiles.js
+index 7bba1db..0000000 100644
+--- a/node_modules/react-dev-utils/checkRequiredFiles.js
++++ b/node_modules/react-dev-utils/checkRequiredFiles.js
+@@ -18,3 +18,3 @@
+       currentFilePath = filePath;
+-      fs.accessSync(filePath, fs.F_OK);
++      fs.accessSync(filePath, fs.constants.F_OK);
+     });
