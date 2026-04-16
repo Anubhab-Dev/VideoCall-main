@@ -9,7 +9,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = (props) => {
-  const socket = useMemo(() => io("https://videocall-2-9iuu.onrender.com"), []);
+  const socket = useMemo(() => io("https://video-call-main-ochre.vercel.app/"), []);
 
   return (
     <SocketContext.Provider value={socket}>
